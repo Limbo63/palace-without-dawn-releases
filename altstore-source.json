@@ -1,0 +1,49 @@
+{
+  "name": "Дворец без рассвета",
+  "subtitle": "Отдельный источник прототипов игры",
+  "description": "Проверенные контрольные версии нового action roguelite. Исходники приватные, IPA публичные. Этот источник не изменяет другие приложения.",
+  "iconURL": "https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/main/assets/icon.png",
+  "website": "https://github.com/Limbo63/palace-without-dawn-releases",
+  "tintColor": "F4B557",
+  "apps": [
+    {
+      "name": "Дворец без рассвета",
+      "bundleIdentifier": "com.limbo63.palacewithoutdawn",
+      "developerName": "Limbo63",
+      "subtitle": "Японский магический замок · action-прототип",
+      "localizedDescription": "Первый прототип: катана, рывок и молния, одна японская арена, два демона и босс с предупреждаемыми атаками. Оригинальная временная графика. IPA требует переподписи AltStore Classic; установка на устройстве пока не проверена. Платежей и сохранения нового прогресса нет.",
+      "iconURL": "https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/main/assets/icon.png",
+      "tintColor": "F4B557",
+      "category": "games",
+      "screenshots": [
+        {
+          "imageURL": "https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/main/assets/arena.png",
+          "width": 900,
+          "height": 1600
+        },
+        {
+          "imageURL": "https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/main/assets/victory.png",
+          "width": 900,
+          "height": 1600
+        }
+      ],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "1",
+          "marketingVersion": "0.1.0 · прототип1",
+          "date": "2026-10-26",
+          "localizedDescription": "Первый проверенный игровой фрагмент. 26 Play Mode PASS; iOS-export и Xcode device build прошли. IPA unsigned/re-signable; устройство и установка AltStore не проверены.",
+          "downloadURL": "https://github.com/Limbo63/palace-without-dawn-releases/releases/download/v0.1.0-prototype.1/PalaceWithoutDawn-0.1.0-b1.ipa",
+          "size": 13553414,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    }
+  ],
+  "news": []
+}

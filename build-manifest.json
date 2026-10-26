@@ -1,0 +1,32 @@
+{
+  "artifact": "PalaceWithoutDawn-0.1.0-b1.ipa",
+  "sha256": "a18c28bf987c9197a312f9449dc9c36f96eb80145469dbc5c15afcb751e5987a",
+  "size": 13553414,
+  "bundleIdentifier": "com.limbo63.palacewithoutdawn",
+  "displayName": "Дворец без рассвета",
+  "version": "0.1.0",
+  "build": "1",
+  "minimumOSVersion": "15.0",
+  "macho": {
+    "architectures": [
+      "arm64"
+    ],
+    "platform": "iOS device",
+    "encrypted": false
+  },
+  "signingPerformed": false,
+  "physicalDeviceTested": false,
+  "nativeIconRenderingVerified": false,
+  "altStoreInstallationVerified": false,
+  "unity": "6000.5.10f1",
+  "xcode": "27.0 (27A266a)",
+  "playModeChecks": 26,
+  "unityIOSExport": "PASS",
+  "xcodeDeviceBuild": "BUILD SUCCEEDED",
+  "xcodeArchive": "NOT_RUN",
+  "newProgressPersistence": false,
+  "prototypeArt": true,
+  "sourceCommit": "7d9b7b996e9fcef3753810cfdf12d03dbd2f98ae",
+  "sourceTag": "v0.1.0-prototype.1",
+  "releaseRepository": "https://github.com/Limbo63/palace-without-dawn-releases"
+}
