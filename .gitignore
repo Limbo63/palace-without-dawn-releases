@@ -1,0 +1,7 @@
+*.ipa
+*.log
+*.mobileprovision
+*.pem
+*.key
+*.p12
+.DS_Store
