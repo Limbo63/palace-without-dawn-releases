@@ -1,5 +1,5 @@
 {
-  "name": "Дворец без рассвета",
+  "name": "Palace Without Dawn",
   "subtitle": "Отдельный источник прототипов игры",
   "description": "Проверенные контрольные версии нового action roguelite. Исходники приватные, IPA публичные. Этот источник не изменяет другие приложения.",
   "iconURL": "https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/main/assets/icon.png",
@@ -7,27 +7,37 @@
   "tintColor": "F4B557",
   "apps": [
     {
-      "name": "Дворец без рассвета",
+      "name": "Palace Without Dawn",
       "bundleIdentifier": "com.limbo63.palacewithoutdawn",
       "developerName": "Limbo63",
       "subtitle": "Японский магический замок · action-прототип",
-      "localizedDescription": "Первый прототип: катана, рывок и молния, одна японская арена, два демона и босс с предупреждаемыми атаками. Оригинальная временная графика. IPA требует переподписи AltStore Classic; установка на устройстве пока не проверена. Платежей и сохранения нового прогресса нет.",
+      "localizedDescription": "A four-room action prototype with katana, dash, lightning, upgrade choices and an original boss. This delivery changes only the app name/version/build in root Info.plist to address AltStore 3009. Native code and all Data are reused unchanged from 0.2.0; the in-game HUD still shows the previous Russian title. No fresh gameplay build or device-install test. Temporary prototype graphics; no real payments or enabled metaprogression saving.",
       "iconURL": "https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/main/assets/icon.png",
       "tintColor": "F4B557",
       "category": "games",
       "screenshots": [
         {
-          "imageURL": "https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/main/assets/arena.png",
+          "imageURL": "https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/main/assets/arena-0.2.1.png",
           "width": 900,
           "height": 1600
         },
         {
-          "imageURL": "https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/main/assets/victory.png",
+          "imageURL": "https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/main/assets/reward-0.2.1.png",
           "width": 900,
           "height": 1600
         }
       ],
       "versions": [
+        {
+          "version": "0.2.1",
+          "buildVersion": "3",
+          "marketingVersion": "0.2.1 · app-name install fix",
+          "date": "2026-10-26",
+          "localizedDescription": "Plist-only app-name fix for AltStore 3009. Reuses unchanged 0.2 native code and Data; the old Russian in-game HUD title remains until the complete rename. No fresh Xcode/gameplay build. Final package names, CRC, size, SHA-256 and unchanged member bytes/modes checked. Physical iPhone installation is untested.",
+          "downloadURL": "https://github.com/Limbo63/palace-without-dawn-releases/releases/download/v0.2.1-prototype.3/PalaceWithoutDawn-0.2.1-b3.ipa",
+          "size": 13627181,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "0.1.0",
           "buildVersion": "1",
