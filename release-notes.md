@@ -1,27 +1,22 @@
-# Palace Without Dawn 0.9.0 / build 5 — diagnostic prerelease
+# Palace Without Dawn0.9.1 /build 6 — diagnostic patch
 
-An original single-player action roguelite in a changing Japanese magical castle. This candidate includes a pool of five ordinary layouts (three selected per run), varied encounters, and two Hollow Bell warning/attack/recovery patterns: Falling Bell and Resonant Sweep.
+This patch includes the checked HUD/input observer in fresh Unity native/Data. Hero identity and HP have separate rows above the health bar. Narrow/long safe-area layouts avoid footer overlaps; portrait katana and skill touch rectangles have a clear gap. Large profile values fit without truncation.
 
-The explicitly labelled **Training / Preview** menu temporarily selects Kae or the adult water heroine Sayo, with her directed water wave. Training grants no XP/coins, records no heroine unlock and makes no main-profile writes. Entering ends the current run without reward; exit starts a fresh ordinary Kae run. Ordinary Kae progression and saves remain separate. No payment SDK, account system or server is connected.
+In active **Training**, open its menu, enable **INPUT OVERLAY**, then resume. The overlay defaults OFF, does not receive raycasts or issue combat actions, and observes pointer/control/orientation/safe-area/focus/pause state using bounded local memory only. No analytics, network, device identifiers or logfile are added. Training still offers temporary Kae/Sayo preview with no XP, coins, purchases, unlocks or main-profile writes; exit starts ordinary Kae.
 
 ## Verification and limits
 
-- Fresh Unity IL2CPP export passed with 0 errors and 0 warnings. Fresh Xcode arm64 iOS device Release build succeeded. No old gameplay native or Data was reused.
-- Editor training/lifecycle/input-isolation and save checks passed. The final export preflight passed 54 checks, including an independent synthetic 0.4-format save; packaging fixtures passed 11 tests. These are not physical touchscreen or real user-save migration results.
-- Final IPA metadata, stable bundle identity, device binaries, content checks, ZIP CRC, size and SHA-256 passed.
-- **120 Xcode warning lines remain**, with the same seven causes/counts as 0.4. Unity IL2CPP compilation target is 11.0 while final binaries declare minOS 15.0. This libc++ warning is understood, not declared universally harmless. Static audit found no new imports or missing bundled dependencies/exports. Declared iOS 15.0 is not a device compatibility guarantee.
-- **Actual touch/multitouch, physical iPhone/AltStore installation, native icon appearance, device performance and runtime ABI/system-symbol availability remain unverified.** The existing Editor automation/input limitation is not a device PASS. This unsigned/re-signable diagnostic candidate is not production or App Store readiness.
+Fresh Unity iOS export: PASS, 0 errors/0 warnings. Fresh unsigned Xcode device Release build: PASS. 57 preflight assertions, 11 package fixtures, CRC/metadata/content and three Mach-O member checks passed. Recent 37-case/871 diagnostic and 3-case/46 default-OFF Editor layout checks are reused with identical runtime bytes; no new physical-touch claim is made. Historical schema2 synthetic profile checks passed without rewriting the fixture. Bundle/save identities are unchanged.
 
-Bundle ID, stable source URL and save identity remain unchanged. Previous versions and downloads remain available.
+**Physical iPhone/AltStore installation, real simultaneous touches, OS lifecycle/cancellation, performance, native icons and runtime ABI remain unverified.** 121 Xcode warnings versus 120 in0.9 still have the same seven categories. One new generated Generics__22.cpp adds the existing libc++ warning (90 vs 89); other counts are unchanged. The IL2CPP target 11 versus final minOS 15 mismatch remains an explicit runtime/toolchain risk. Successful linking and iOS 15 metadata do not prove device compatibility. The candidate is diagnostic, not production/App Store readiness.
 
-Artifact: `PalaceWithoutDawn-0.9.0-b5.ipa` — **28,687,007 bytes**.
-SHA-256: `c441d6d028fada5e42f103c7ba841043a31a6bc2bb798aedcca9feac9252b967`.
+## Integrity
 
-## Actual Editor feature captures
+- Artifact: PalaceWithoutDawn-0.9.1-b6.ipa
+- Size: 28746452bytes
+- SHA256: 1b9545a48928d5433f6632d86631adbedbc0bf807eda59460c172552749d8339
+- Bundle ID: com.limbo63.palacewithoutdawn
 
-These contain only game pixels, not device screenshots or concept art. The room was recorded at the room checkpoint, the boss at a controlled pattern fixture, and preview/water at the training checkpoint. All shown features are included in this candidate; warning/water fixtures are not ordinary-run balance evidence.
+[Download](https://github.com/Limbo63/palace-without-dawn-releases/releases/download/v0.9.1-diagnostic.6/PalaceWithoutDawn-0.9.1-b6.ipa) · [Stable AltStore source](https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/main/altstore-source.json)
 
-![Included room encounter, actual Editor capture](https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/v0.9.0-diagnostic.5/assets/room-folded-scroll-0.9.0.png)
-![Hollow Bell warning, controlled Editor fixture](https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/v0.9.0-diagnostic.5/assets/boss-warning-0.9.0.png)
-![Training / Preview, actual Editor capture](https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/v0.9.0-diagnostic.5/assets/training-panel-0.9.0.png)
-![Sayo wave, controlled Editor training fixture](https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/v0.9.0-diagnostic.5/assets/sayo-wave-0.9.0.png)
+Previous 0.9, 0.4, 0.2.1 and0.1 releases retain their original bytes/URLs. Existing screenshots are earlier game-only Editor feature captures (some controlled fixtures), not device or 0.9.1 overlay screenshots. Source code remains private; no saves, credentials, provisioning, internal logs or checkout paths are published. No payment SDK or game account/server is connected.

@@ -11,7 +11,7 @@
       "bundleIdentifier": "com.limbo63.palacewithoutdawn",
       "developerName": "Limbo63",
       "subtitle": "Japanese impossible castle · action prototype",
-      "localizedDescription": "Diagnostic prerelease with a pool of five ordinary layouts (three selected per run), two Hollow Bell boss patterns, and explicit Training / Preview for Kae or Sayo. Training grants no XP or coins, records no heroine unlock and makes no main-profile writes; ordinary Kae progression remains separate. Fresh Unity export, Xcode device build and package checks passed. Real touch, physical iPhone/AltStore installation, performance and runtime ABI compatibility remain unverified. The same 120 Xcode warning lines as 0.4 remain, including IL2CPP compilation target 11.0 versus final minOS 15.0. Declared iOS 15.0 is not a device compatibility guarantee. No payment SDK, game account system or game server is connected. Screenshots are Editor feature captures; boss and water-skill frames use controlled fixtures.",
+      "localizedDescription": "Diagnostic patch with separate hero/HP rows, adaptive safe-area footer, corrected katana/skill touch rectangles and an opt-in local input/lifecycle overlay in Training. The observer defaults OFF, is non-interactive, keeps bounded memory only and performs no analytics, network or profile writes. Training remains a temporary Kae/Sayo preview with no rewards or unlock. Fresh Unity export, Xcode device build and package checks passed. Physical installation, real touch/multitouch, OS lifecycle, performance, native icons and runtime ABI remain unverified. Xcode emits 121 warnings versus 120 in0.9: the same seven categories, with one extra existing libc++ warning from a new generated translation unit. IL2CPP target 11 versus final minOS 15 remains an explicit runtime risk; iOS 15 metadata is not a compatibility guarantee. No payment SDK, game account system or game server is connected. Retained screenshots are earlier Editor feature captures, not device or overlay validation.",
       "iconURL": "https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/main/assets/icon.png",
       "tintColor": "F4B557",
       "category": "games",
@@ -48,6 +48,16 @@
         }
       ],
       "versions": [
+        {
+          "version": "0.9.1",
+          "buildVersion": "6",
+          "marketingVersion": "0.9.1 · diagnostic input and HUD patch",
+          "date": "2026-10-27",
+          "localizedDescription": "Diagnostic patch with separate hero/HP rows, adaptive safe-area footer, corrected katana/skill touch rectangles and an opt-in local input/lifecycle overlay in Training. The observer defaults OFF, is non-interactive, keeps bounded memory only and performs no analytics, network or profile writes. Training remains a temporary Kae/Sayo preview with no rewards or unlock. Fresh Unity export, Xcode device build and package checks passed. Physical installation, real touch/multitouch, OS lifecycle, performance, native icons and runtime ABI remain unverified. Xcode emits 121 warnings versus 120 in0.9: the same seven categories, with one extra existing libc++ warning from a new generated translation unit. IL2CPP target 11 versus final minOS 15 remains an explicit runtime risk; iOS 15 metadata is not a compatibility guarantee.",
+          "downloadURL": "https://github.com/Limbo63/palace-without-dawn-releases/releases/download/v0.9.1-diagnostic.6/PalaceWithoutDawn-0.9.1-b6.ipa",
+          "size": 28746452,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "0.9.0",
           "buildVersion": "5",

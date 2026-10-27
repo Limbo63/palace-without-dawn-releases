@@ -1,27 +1,25 @@
-# Palace Without Dawn — 0.9.0 / build 5
+# Palace Without Dawn — 0.9.1 /build 6
 
-A diagnostic prerelease of an original single-player action roguelite in a changing Japanese magical castle. Direct katana combat and dash lead through three rooms selected from five ordinary layouts, temporary upgrade choices and Hollow Bell with two warning/attack/recovery patterns.
+Diagnostic patch for the original single-player action roguelite: separate identity/HP rows, adaptive safe-area HUD and corrected katana/skill touch rectangles. Includes an opt-in, non-interactive local input/lifecycle overlay in Training, default OFF, with bounded memory and no analytics/network/logfile. Training remains temporary Kae/Sayo preview with no rewards, unlocks or main-profile writes. Ordinary Kae and local progression stay separate. Source code remains private.
 
-The explicit Training / Preview menu temporarily selects Kae or Sayo with a directed water wave. Training grants no XP/coins or heroine unlock and makes no main-profile writes; exit starts a fresh ordinary Kae run. Ordinary Kae progression and local saves remain separate. Source code stays private; this repository contains release artifacts and delivery metadata only.
+[Download 0.9.1](https://github.com/Limbo63/palace-without-dawn-releases/releases/download/v0.9.1-diagnostic.6/PalaceWithoutDawn-0.9.1-b6.ipa) · [Release notes](https://github.com/Limbo63/palace-without-dawn-releases/releases/tag/v0.9.1-diagnostic.6) · [AltStore source](https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/main/altstore-source.json)
 
-[Download diagnostic 0.9.0](https://github.com/Limbo63/palace-without-dawn-releases/releases/download/v0.9.0-diagnostic.5/PalaceWithoutDawn-0.9.0-b5.ipa) · [Release notes](https://github.com/Limbo63/palace-without-dawn-releases/releases/tag/v0.9.0-diagnostic.5) · [AltStore source](https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/main/altstore-source.json)
+**Installation through AltStore, real touch/multitouch, OS lifecycle, iPhone performance, icons and runtime ABI remain unverified.** Fresh Unity/Xcode/package/static checks passed.121 Xcode warnings have the same seven categories as 0.9's 120: one additional generated translation unit emits the existing libc++ warning. IL2CPP target 11 versus final minOS 15 remains an explicit runtime risk; declared iOS 15 is not a compatibility guarantee. This is an unsigned/re-signable diagnostic candidate, not production or App Store readiness.
 
-**Physical iPhone/AltStore installation, real touch/multitouch, native icon appearance, device performance and runtime ABI compatibility remain unverified.** Fresh Unity export, Xcode device build, package integrity and bounded static audit passed. The same 120 Xcode warnings as 0.4 remain, including IL2CPP target 11.0 versus final minOS 15.0. They are not declared universally safe; iOS 15.0 metadata is not a compatibility guarantee. This unsigned/re-signable candidate is not production or App Store readiness.
+## Integrity and history
 
-## Integrity and previous versions
+- PalaceWithoutDawn-0.9.1-b6.ipa: 28746452bytes.
+- SHA256: `1b9545a48928d5433f6632d86631adbedbc0bf807eda59460c172552749d8339`.
+- Existing bundle ID and stable source/save identity preserved.
+- Previous [0.9](https://github.com/Limbo63/palace-without-dawn-releases/releases/tag/v0.9.0-diagnostic.5), [0.4](https://github.com/Limbo63/palace-without-dawn-releases/releases/tag/v0.4.0-prototype.4), [0.2.1](https://github.com/Limbo63/palace-without-dawn-releases/releases/tag/v0.2.1-prototype.3) and [0.1](https://github.com/Limbo63/palace-without-dawn-releases/releases/tag/v0.1.0-prototype.1) remain available unchanged.
 
-- Artifact: `PalaceWithoutDawn-0.9.0-b5.ipa`, 28,687,007 bytes.
-- SHA-256: `c441d6d028fada5e42f103c7ba841043a31a6bc2bb798aedcca9feac9252b967`.
-- Bundle ID: `com.limbo63.palacewithoutdawn`; stable source URL and save identity preserved.
-- Previous [0.4.0](https://github.com/Limbo63/palace-without-dawn-releases/releases/tag/v0.4.0-prototype.4), [0.2.1](https://github.com/Limbo63/palace-without-dawn-releases/releases/tag/v0.2.1-prototype.3) and [0.1.0](https://github.com/Limbo63/palace-without-dawn-releases/releases/tag/v0.1.0-prototype.1) retain their original downloads.
+## Retained Editor feature captures
 
-## Actual Editor feature captures
+These earlier actual Editor captures show included room/boss/Training/water features, not physical-device or 0.9.1 overlay validation. Boss/water frames use controlled fixtures. Older 0.4 images remain in assets/source.
 
-These are game-only Editor captures, not device screenshots. Room/boss images were recorded at the earlier checkpoints implementing those included features; menu/wave images at the training checkpoint. Boss/wave frames are controlled fixtures, not human balance evidence. Earlier 0.4 images remain in assets and the source.
+![Room encounter](assets/room-folded-scroll-0.9.0.png)
+![Boss warning fixture](assets/boss-warning-0.9.0.png)
+![Training preview](assets/training-panel-0.9.0.png)
+![Water-skill fixture](assets/sayo-wave-0.9.0.png)
 
-![Included room encounter](assets/room-folded-scroll-0.9.0.png)
-![Controlled Hollow Bell warning fixture](assets/boss-warning-0.9.0.png)
-![Training / Preview](assets/training-panel-0.9.0.png)
-![Controlled Sayo wave training fixture](assets/sayo-wave-0.9.0.png)
-
-Release files exclude personal saves, credentials, provisioning, internal logs and source checkout paths. No payment SDK, game account system or server is connected. Art, animation and balance remain prototypes.
+This release-only repository excludes personal saves, credentials, provisioning, internal logs and checkout paths. No payment SDK, game account system or server is connected.
