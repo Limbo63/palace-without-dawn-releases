@@ -1,7 +1,7 @@
 {
   "name": "Palace Without Dawn",
-  "subtitle": "Отдельный источник прототипов игры",
-  "description": "Проверенные контрольные версии нового action roguelite. Исходники приватные, IPA публичные. Этот источник не изменяет другие приложения.",
+  "subtitle": "Diagnostic game prototypes",
+  "description": "Verified milestone builds of the original action roguelite. Source code stays private; release artifacts are public. This source is separate from other applications.",
   "iconURL": "https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/main/assets/icon.png",
   "website": "https://github.com/Limbo63/palace-without-dawn-releases",
   "tintColor": "F4B557",
@@ -10,24 +10,34 @@
       "name": "Palace Without Dawn",
       "bundleIdentifier": "com.limbo63.palacewithoutdawn",
       "developerName": "Limbo63",
-      "subtitle": "Японский магический замок · action-прототип",
-      "localizedDescription": "A four-room action prototype with katana, dash, lightning, upgrade choices and an original boss. This delivery changes only the app name/version/build in root Info.plist to address AltStore 3009. Native code and all Data are reused unchanged from 0.2.0; the in-game HUD still shows the previous Russian title. No fresh gameplay build or device-install test. Temporary prototype graphics; no real payments or enabled metaprogression saving.",
+      "subtitle": "Japanese impossible castle · action prototype",
+      "localizedDescription": "An original four-room action roguelite prototype with directional katana combat, dash, lightning, room upgrade choices and the Hollow Bell boss. Version 0.4.0 adds original prototype sprites and simple animation/hit feedback, an English HUD, Kae experience and levels, earned coins, permanent katana upgrades and versioned local saves with reward receipts and corruption recovery. Editor scenarios and fresh native build/package checks passed. Real touch, physical iPhone/AltStore installation and device performance remain unverified. No payment SDK, account system or game server is connected.",
       "iconURL": "https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/main/assets/icon.png",
       "tintColor": "F4B557",
       "category": "games",
       "screenshots": [
         {
-          "imageURL": "https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/main/assets/arena-0.2.1.png",
+          "imageURL": "https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/main/assets/arena-0.4.0.png",
           "width": 900,
           "height": 1600
         },
         {
-          "imageURL": "https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/main/assets/reward-0.2.1.png",
+          "imageURL": "https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/main/assets/profile-0.4.0.png",
           "width": 900,
           "height": 1600
         }
       ],
       "versions": [
+        {
+          "version": "0.4.0",
+          "buildVersion": "4",
+          "marketingVersion": "0.4.0 · diagnostic art and progression",
+          "date": "2026-10-27",
+          "localizedDescription": "Fresh native diagnostic build with original prototype art, an English HUD, Kae experience and levels, earned coins, permanent katana upgrades and versioned local saves. Editor gameplay, progression and recovery checks passed; fresh Unity iOS export, Xcode device build and final package validation passed. Physical iPhone/AltStore installation, real touch controls and device performance remain unverified.",
+          "downloadURL": "https://github.com/Limbo63/palace-without-dawn-releases/releases/download/v0.4.0-prototype.4/PalaceWithoutDawn-0.4.0-b4.ipa",
+          "size": 27177794,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "0.2.1",
           "buildVersion": "3",

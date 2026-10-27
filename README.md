@@ -1,28 +1,33 @@
-# Palace Without Dawn — 0.2.1 / build 3
+# Palace Without Dawn — 0.4.0 / build 4
 
-This is an **app-name installation fix**, not a new gameplay or native build. Root Info.plist now uses the English app name and the new version/build. All native code, metadata, Data, icons and other archive member bytes/modes remain identical to the frozen 0.2.0 baseline.
+A diagnostic prototype of an original single-player action roguelite in a changing Japanese magical castle. Direct katana combat, dash and lightning lead through four rooms with temporary upgrade choices and the Hollow Bell boss.
 
-**The in-game HUD still shows “ДВОРЕЦ БЕЗ РАССВЕТА”. The complete UI rename remains pending.** Other Russian gameplay text remains Russian. Newer source Editor checks are separate from validation of the reused native build and are not presented here as shipped 0.2.1 runtime proof.
+The current native build includes original prototype sprites with simple animation/hit feedback, an English HUD, Kae experience/levels, earned coins, permanent katana upgrades and versioned local saves. Source code remains private. This repository contains release artifacts and delivery metadata.
 
-The unchanged gameplay is a short four-room run with three upgrade choices, directional katana combat, dash, lightning and an original boss. Graphics are temporary prototype forms. There are no real payments, and automatic run/metaprogression saving is not enabled.
+[Download 0.4.0](https://github.com/Limbo63/palace-without-dawn-releases/releases/download/v0.4.0-prototype.4/PalaceWithoutDawn-0.4.0-b4.ipa) · [Release notes](https://github.com/Limbo63/palace-without-dawn-releases/releases/tag/v0.4.0-prototype.4) · [AltStore source](https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/main/altstore-source.json)
 
-## Verification scope
+The IPA is unsigned/re-signable. **Physical iPhone/AltStore installation, real touch/multitouch and device performance remain unverified.** This is a diagnostic milestone, not production readiness.
 
-- Current package: only root Info.plist differs; 58 other members / 42547933 uncompressed bytes and their modes were compared with frozen 0.2.0. Final ZIP CRC, raw names, identity, version/build, size and SHA-256 were checked. This delivery reuses the verified 0.2 native code and Data. It contains no fresh native compilation; it is a plist-only installation-name correction.
-- Historical **0.2.0 native baseline only**: 66 Unity Play Mode checks, four-room victory and three choices, actual Stop/Play, 26 storage checks without touching player data, zero-error iOS export and Xcode device BUILD SUCCEEDED. These results are not a new 0.2.1 runtime or installation PASS.
-- The two 900×1600 screenshots are real captures from that same successful 0.2 baseline. They do not depict a newly renamed native HUD.
-- Physical iPhone installation through AltStore, hardware multitouch, native icon appearance and device performance remain untested. The installed AltStore binary was not inspected. No Apple AppID/account/certificate was manually created.
+## Verification
 
-The previous raw Russian app name becomes two spaces under the pinned AltSign registration-name filter. The new raw app name **Palace Without Dawn** passes the package name checks. This metadata correction does not by itself prove successful installation. The unsigned/re-signable IPA requires AltStore re-signing.
+- Editor: 112 storage, 41 service, 51 progression Play Mode, 153 visual/layout and 66 combat checks passed. Save → Stop/Play → load, receipt idempotency and recovery used isolated profiles.
+- Fresh Unity 6000.5.10f1 IL2CPP export: PASS, 0 errors/warnings. Fresh Xcode Release device build: BUILD SUCCEEDED.
+- Final package: arm64 iOS device, English raw app names, stable bundle/version, content audit, ZIP CRC, size and SHA-256 passed.
+- Previous 0.2 native/Data are not reused. Historical 0.2.1 remains a separate plist-only installation-name fix.
+
+## Editor captures
+
+These are actual game pixels from the 0.4 source and an isolated QA profile; they do not prove native device rendering or touch input.
+
+![0.4 Editor arena](assets/arena-0.4.0.png)
+![0.4 Editor permanent progression](assets/profile-0.4.0.png)
 
 ## Identity and integrity
 
-- Bundle identifier remains `com.limbo63.palacewithoutdawn`.
-- [AltStore source URL remains unchanged](https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/main/altstore-source.json).
-- Artifact: `PalaceWithoutDawn-0.2.1-b3.ipa`, 13627181 bytes, SHA-256 `a4284d25718064a00800c54e5a6bf37feacf09d4777035d799c96fa426289ea1`.
-- Package-tool/documentation source checkpoint: `269905edb81c7b4ec3289105c57f8c769d534e56`.
-- Reused native source checkpoint: `3602d78fae05dba5872ac6d08ff9594a087bb55a`.
-- Frozen baseline IPA SHA-256: `0e55b3f2de22385088723bce45b64978d575b2a7dd8e7583d0611f27bf240f3c`.
-- Release tag: `v0.2.1-prototype.3`. Historical published 0.1 metadata is preserved unchanged; the unpublished 0.2 entry is not added to the feed.
+- Bundle ID: `com.limbo63.palacewithoutdawn`; source URL and save identity remain unchanged.
+- Artifact: `PalaceWithoutDawn-0.4.0-b4.ipa`, 27177794 bytes.
+- SHA-256: `3477d59c5b407b94c6519b80637ac75363a8432e0bfffd591689aee706967a7b`.
+- Private source checkpoint: `2c148e37acb731f3d40e5115d3c83aba053e05e0`.
+- Release tag: `v0.4.0-prototype.4`. Published 0.2.1 and 0.1.0 remain available.
 
-Public delivery contains no source code, personal saves, credentials, provisioning, internal logs or machine paths. Other applications are unaffected.
+Release files exclude personal saves, credentials, provisioning and internal logs. Published metadata omits local source-checkout paths. No payment SDK, game account system or game server is connected. Art and balance remain prototypes.
