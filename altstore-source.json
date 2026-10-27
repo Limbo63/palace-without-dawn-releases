@@ -11,11 +11,31 @@
       "bundleIdentifier": "com.limbo63.palacewithoutdawn",
       "developerName": "Limbo63",
       "subtitle": "Japanese impossible castle · action prototype",
-      "localizedDescription": "An original four-room action roguelite prototype with directional katana combat, dash, lightning, room upgrade choices and the Hollow Bell boss. Version 0.4.0 adds original prototype sprites and simple animation/hit feedback, an English HUD, Kae experience and levels, earned coins, permanent katana upgrades and versioned local saves with reward receipts and corruption recovery. Editor scenarios and fresh native build/package checks passed. Real touch, physical iPhone/AltStore installation and device performance remain unverified. No payment SDK, account system or game server is connected.",
+      "localizedDescription": "Diagnostic prerelease with a pool of five ordinary layouts (three selected per run), two Hollow Bell boss patterns, and explicit Training / Preview for Kae or Sayo. Training grants no XP or coins, records no heroine unlock and makes no main-profile writes; ordinary Kae progression remains separate. Fresh Unity export, Xcode device build and package checks passed. Real touch, physical iPhone/AltStore installation, performance and runtime ABI compatibility remain unverified. The same 120 Xcode warning lines as 0.4 remain, including IL2CPP compilation target 11.0 versus final minOS 15.0. Declared iOS 15.0 is not a device compatibility guarantee. No payment SDK, game account system or game server is connected. Screenshots are Editor feature captures; boss and water-skill frames use controlled fixtures.",
       "iconURL": "https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/main/assets/icon.png",
       "tintColor": "F4B557",
       "category": "games",
       "screenshots": [
+        {
+          "imageURL": "https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/v0.9.0-diagnostic.5/assets/room-folded-scroll-0.9.0.png",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "imageURL": "https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/v0.9.0-diagnostic.5/assets/boss-warning-0.9.0.png",
+          "width": 900,
+          "height": 1600
+        },
+        {
+          "imageURL": "https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/v0.9.0-diagnostic.5/assets/training-panel-0.9.0.png",
+          "width": 1600,
+          "height": 900
+        },
+        {
+          "imageURL": "https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/v0.9.0-diagnostic.5/assets/sayo-wave-0.9.0.png",
+          "width": 1600,
+          "height": 900
+        },
         {
           "imageURL": "https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/main/assets/arena-0.4.0.png",
           "width": 900,
@@ -28,6 +48,16 @@
         }
       ],
       "versions": [
+        {
+          "version": "0.9.0",
+          "buildVersion": "5",
+          "marketingVersion": "0.9.0 · diagnostic training",
+          "date": "2026-10-27",
+          "localizedDescription": "Diagnostic prerelease with a pool of five ordinary layouts (three selected per run), two Hollow Bell boss patterns, and explicit Training / Preview for Kae or Sayo. Training grants no XP or coins, records no heroine unlock and makes no main-profile writes; ordinary Kae progression remains separate. Fresh Unity export, Xcode device build and package checks passed. Real touch, physical iPhone/AltStore installation, performance and runtime ABI compatibility remain unverified. The same 120 Xcode warning lines as 0.4 remain, including IL2CPP compilation target 11.0 versus final minOS 15.0. Declared iOS 15.0 is not a device compatibility guarantee.",
+          "downloadURL": "https://github.com/Limbo63/palace-without-dawn-releases/releases/download/v0.9.0-diagnostic.5/PalaceWithoutDawn-0.9.0-b5.ipa",
+          "size": 28687007,
+          "minOSVersion": "15.0"
+        },
         {
           "version": "0.4.0",
           "buildVersion": "4",

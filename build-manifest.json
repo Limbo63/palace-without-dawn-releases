@@ -1,63 +1,91 @@
 {
-  "version": "0.4.0",
-  "build": "4",
-  "releaseTag": "v0.4.0-prototype.4",
-  "releaseKind": "diagnostic prototype",
+  "version": "0.9.0",
+  "build": "5",
+  "releaseTag": "v0.9.0-diagnostic.5",
+  "releaseKind": "diagnostic prerelease",
   "name": "Palace Without Dawn",
-  "bundleName": "PalaceWithoutDawn",
   "bundleIdentifier": "com.limbo63.palacewithoutdawn",
-  "artifact": "PalaceWithoutDawn-0.4.0-b4.ipa",
-  "size": 27177794,
-  "sha256": "3477d59c5b407b94c6519b80637ac75363a8432e0bfffd591689aee706967a7b",
+  "artifact": "PalaceWithoutDawn-0.9.0-b5.ipa",
+  "size": 28687007,
+  "sha256": "c441d6d028fada5e42f103c7ba841043a31a6bc2bb798aedcca9feac9252b967",
   "minimumOSVersion": "15.0",
-  "sourceRepositoryVisibility": "private",
-  "sourceCommit": "2c148e37acb731f3d40e5115d3c83aba053e05e0",
-  "freshSourceSnapshotVerifiedAgainstGitBlobs": true,
+  "sourceCodePublished": false,
   "freshUnityExport": true,
   "freshXcodeDeviceBuild": true,
   "reusesPreviousGameplayBinary": false,
   "reusesPreviousData": false,
-  "unityVersion": "6000.5.10f1",
   "unityExport": {
     "status": "PASS",
-    "exitCode": 0,
     "errors": 0,
     "warnings": 0
   },
   "xcodeDeviceBuild": {
     "status": "PASS",
-    "exitCode": 0,
-    "configuration": "Release",
     "architecture": "arm64",
-    "signingAllowed": false
+    "warningLines": 120,
+    "sameWarningCausesAndCountsAs04": true,
+    "signingPerformed": false
   },
-  "editorChecks": {
-    "storage": 112,
-    "progressionService": 41,
-    "progressionPlayMode": 51,
-    "visualLayout": 153,
-    "combat": 66,
-    "allPassed": true
+  "warningRisk": "Unity IL2CPP static compilation target11.0 versus final minOS15.0; runtime ABI/system-symbol compatibility on devices is unverified.",
+  "diagnosticTraining": {
+    "explicitPreview": true,
+    "selectable": [
+      "Kae",
+      "Sayo"
+    ],
+    "productionUnlockGranted": false,
+    "rewardGranted": false,
+    "mainProfileWrites": false,
+    "ordinaryStart": "Kae"
   },
-  "packageChecks": {
-    "status": "PASS",
-    "zipCrc": true,
-    "englishRawNames": true,
-    "altSignRegistrationName": "Palace Without Dawn",
-    "sourceNativeMatchesPackaged": true,
-    "checkedEditorQaMarkersAbsent": true,
-    "nativeFrameworkSha256": "45d8933d93e1450c03b7151741f53f6827f86c0ca14a7c71c5dbbbe7a4fac1e2",
-    "globalMetadataSha256": "a57bdcf2db8f46852cad9a8fc514bfebe18c29e33544cabfd5af4bcdb72a69e1"
-  },
+  "staticAudit": "No new blocking source/link/package finding; diagnostic delivery only, not production compatibility approval.",
+  "postFixExportPreflightChecksPassed": 54,
+  "packagingFixtureTestsPassed": 11,
   "physicalDeviceTested": false,
   "realTouchVerified": false,
   "altStoreInstallationVerified": false,
   "devicePerformanceVerified": false,
+  "runtimeAbiVerified": false,
   "nativeIconRenderingVerified": false,
-  "signingPerformed": false,
-  "prototypeArt": true,
-  "saveIdentityChanged": false,
   "paymentSdkConnected": false,
+  "saveIdentityChanged": false,
   "sourceUrl": "https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/main/altstore-source.json",
-  "screenshotsScope": "Actual Editor captures with isolated QA profile; not device evidence."
+  "screenshots": [
+    {
+      "file": "room-folded-scroll-0.9.0.png",
+      "url": "https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/v0.9.0-diagnostic.5/assets/room-folded-scroll-0.9.0.png",
+      "width": 1600,
+      "height": 900,
+      "size": 988435,
+      "sha256": "89c9a4b1987e4b2d7e11a1acae77b649ced9a64f0d75cca9235d08c5bbf375de",
+      "scope": "Actual Editor room encounter capture of an included layout."
+    },
+    {
+      "file": "boss-warning-0.9.0.png",
+      "url": "https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/v0.9.0-diagnostic.5/assets/boss-warning-0.9.0.png",
+      "width": 900,
+      "height": 1600,
+      "size": 1367260,
+      "sha256": "7a32a660b872f169b8aa12e306f920bec1b879f82060a5645480b82bb40f1e1b",
+      "scope": "Actual Editor controlled boss warning fixture; not device or ordinary-run balance evidence."
+    },
+    {
+      "file": "training-panel-0.9.0.png",
+      "url": "https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/v0.9.0-diagnostic.5/assets/training-panel-0.9.0.png",
+      "width": 1600,
+      "height": 900,
+      "size": 293272,
+      "sha256": "7de1348e909af38e365c79aa9144d3ba6f94f9333483387cbc61cf71bbcd26b7",
+      "scope": "Actual Editor diagnostic Training / Preview panel."
+    },
+    {
+      "file": "sayo-wave-0.9.0.png",
+      "url": "https://raw.githubusercontent.com/Limbo63/palace-without-dawn-releases/v0.9.0-diagnostic.5/assets/sayo-wave-0.9.0.png",
+      "width": 1600,
+      "height": 900,
+      "size": 955298,
+      "sha256": "d4a23b9f4e2007e5c76f30d65727651d0c82c751062b706d4c03f092a05efa92",
+      "scope": "Actual Editor controlled water-skill training fixture; not device evidence."
+    }
+  ]
 }
